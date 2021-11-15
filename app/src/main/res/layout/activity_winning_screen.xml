@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".winningScreen">
+
+    <TextView
+        android:id="@+id/announce2"
+        android:layout_width="347dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:text="Me When The"
+        android:textAlignment="center"
+        android:textColor="#50D19E"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="30dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="135dp"
+        android:layout_height="113dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:srcCompat="@drawable/homebutton" />
+
+    <VideoView
+        android:id="@+id/cri"
+        android:layout_width="315dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/dog2g"
+        app:layout_constraintStart_toEndOf="@+id/dog1g"
+        app:layout_constraintTop_toBottomOf="@+id/dog1g" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/dog1g"
+        android:layout_width="185dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/huladogg"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/announce2" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/dog2g"
+        android:layout_width="185dp"
+        android:layout_height="250dp"
+        android:src="@drawable/huladogg"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/dog1g" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
