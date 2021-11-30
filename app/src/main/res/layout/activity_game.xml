@@ -13,7 +13,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="200dp"
         android:onClick="clicked"
-        android:tag="4"
+        android:tag="0"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/announce"
         app:srcCompat="@drawable/white" />
@@ -35,7 +35,7 @@
         android:layout_height="105dp"
         android:layout_marginTop="5dp"
         android:onClick="clicked"
-        android:tag="8"
+        android:tag="6"
         app:layout_constraintStart_toStartOf="@+id/imageButton7"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
         app:srcCompat="@drawable/white" />
@@ -46,7 +46,7 @@
         android:layout_height="105dp"
         android:layout_marginStart="5dp"
         android:onClick="clicked"
-        android:tag="6"
+        android:tag="8"
         app:layout_constraintStart_toEndOf="@+id/imageButton9"
         app:layout_constraintTop_toTopOf="@+id/imageButton9"
         app:srcCompat="@drawable/white" />
@@ -57,7 +57,7 @@
         android:layout_height="105dp"
         android:layout_marginStart="5dp"
         android:onClick="clicked"
-        android:tag="1"
+        android:tag="7"
         app:layout_constraintStart_toEndOf="@+id/imageButton10"
         app:layout_constraintTop_toTopOf="@+id/imageButton10"
         app:srcCompat="@drawable/white" />
@@ -68,7 +68,7 @@
         android:layout_height="105dp"
         android:layout_marginStart="5dp"
         android:onClick="clicked"
-        android:tag="5"
+        android:tag="4"
         app:layout_constraintStart_toEndOf="@+id/imageButton7"
         app:layout_constraintTop_toTopOf="@+id/imageButton7"
         app:srcCompat="@drawable/white" />
@@ -79,7 +79,7 @@
         android:layout_height="105dp"
         android:layout_marginStart="5dp"
         android:onClick="clicked"
-        android:tag="7"
+        android:tag="5"
         app:layout_constraintStart_toEndOf="@+id/imageButton6"
         app:layout_constraintTop_toTopOf="@+id/imageButton6"
         app:srcCompat="@drawable/white" />
@@ -90,7 +90,7 @@
         android:layout_height="105dp"
         android:layout_marginStart="5dp"
         android:onClick="clicked"
-        android:tag="9"
+        android:tag="1"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="@+id/imageButton2"
         app:srcCompat="@drawable/white" />
